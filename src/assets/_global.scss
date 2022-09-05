@@ -1,0 +1,44 @@
+@import "variables";
+
+html, body {
+  background: $tertiary;
+  font-size: 16px;
+  height: 100%;
+  margin: 0;
+  color: $text-dark-1;
+}
+
+a {
+  color: $secondary;
+}
+
+.pkmn-deck {
+  display: flex;
+  flex-wrap: wrap;
+
+  .pkmn-card {
+    width: calc(25% - 20px);
+    margin: 10px;
+    position: relative;
+
+    .card-img {
+      width: 100%;
+    }
+
+    .card-qtd {
+      position: absolute;
+      color: $text-dark-1;
+      font-weight: bold;
+      font-size: 1.625rem;
+      background: $primary;
+      bottom: 10px;
+      right: 10px;
+      width: 2.5rem;
+      height: 2.5rem;
+      border-radius: 10px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}

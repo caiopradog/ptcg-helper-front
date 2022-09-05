@@ -1,0 +1,42 @@
+$white: #ffffff;
+$white-soft: #f8f8f8;
+$white-mute: #f2f2f2;
+
+$black: #181818;
+$black-soft: #222222;
+$black-mute: #282828;
+
+$indigo: #2c3e50;
+
+$divider-light-1: rgba(60, 60, 60, 0.29);
+$divider-light-2: rgba(60, 60, 60, 0.12);
+$divider-dark-1: rgba(84, 84, 84, 0.65);
+$divider-dark-2: rgba(84, 84, 84, 0.48);
+
+$text-light-1: $indigo;
+$text-light-2: rgba(60, 60, 60, 0.66);
+$text-dark-1: $white-soft;
+$text-dark-2: rgba(235, 235, 235, 0.64);
+
+$section-gap: 160px;
+
+$color-background: $black;
+$color-background-soft: $black-soft;
+$color-background-mute: $black-mute;
+$color-border: $divider-dark-2;
+$color-border-hover: $divider-dark-1;
+$color-heading: $text-dark-1;
+$color-text: $text-dark-2;
+
+/* Theme Color */
+$blue-sapphire: #0b4f6c;
+$turquoise-blue: #52ffee;
+$eerie-black: #1F1F1F;
+$dark-red: #92140c;
+$deep-champagne: #ffcf99;
+
+$primary: $blue-sapphire;
+$secondary: $turquoise-blue;
+$tertiary: $eerie-black;
+$accent-primary: $dark-red;
+$accent-secondary: $deep-champagne;
